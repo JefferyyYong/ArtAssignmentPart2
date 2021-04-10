@@ -1,0 +1,73 @@
+﻿.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 30px;
+    background-color:black;
+    margin-top:170px;
+}
+
+
+.loginTitle {
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    padding-top:15px;
+    padding-bottom:8px;
+}
+
+.loginInput{
+    position:relative;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.loginBtn{
+    text-align:center;
+}
+
+.loginSubmitBtnStyle {
+    font-weight: 500;
+    font-size: Large;
+    background-color: lightblue;
+    width: 401px;
+    height: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginSubmitBtnStyle:hover{
+    background-color:Highlight;
+}
+
+.loginchoicebtn {
+        background-color: white;
+        display: inline-block;
+        margin: -1px;
+        padding-top: 7px;
+        padding-bottom: 4px;
+        padding-left: 16px;
+        padding-right: 12px;
+        color:black;
+        width: 153px;
+        height: 27px;
+        font-size: 18px;
+        font-weight:500;
+        text-align:center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    

@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="ArtAssignment.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>JustArt Gallery</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    <style type="text/css">
+        .page-style1 {
+            margin-left: 0.5px;
+            margin-right: 0px;
+        }
+        .panel1{
+            position:absolute;
+            margin:auto;
+            left:1226px;
+            top:132px;
+            height:24px;
+            background-color:black;
+           
+        }
+        .dMenu1{
+            background-color:antiquewhite;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight:500;
+        }
+        .dMenu1:hover{
+            background-color:palevioletred;
+        }
+        </style>
+  
+</head>
+<body class="page-style1">
+    <form id="form1" runat="server">
+        
+        <div id="header">
+             <asp:ImageButton ID="PageLogo" runat="server" Height="121px" ImageUrl="~/Properties/MasterLayout1.jpg" Width="258px" OnClick="PageLogo_Click" PostBackUrl="~/homepage.aspx" />
+                 
+                 <div id="userlabel" style="float:right;margin:auto;font-size:larger;padding-top:100px;padding-right:10px">
+                     <asp:Label ID="lblLogin" runat="server" style="font-size:medium;color:black;margin:auto" ></asp:Label>
+                     <span style="font-weight:600">&nbsp;|</span>
+                     <asp:Label ID="lblRegister" runat="server" style="font-size:medium;margin:auto"></asp:Label>         
+                 </div> 
+             <br />     
+            <p style="background-color:black;margin-top:0px;margin-bottom:0px;color:white;padding-top:2px;padding-bottom:2px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;";>
+                &nbsp;&nbsp;
+                (Contact Us)&nbsp; Email: <a href="mailto:info@justartgallery.com" style="text-decoration:none;color:white">Info@justArtGallery.com</a>&nbsp;&nbsp;&nbsp; Phone: 014-6038641
+            </p>
+            <asp:Panel ID="p1" CssClass="panel1" runat="server" Width="120px">
+                 <asp:Button ID="dMenu" CssClass="dMenu1"  runat="server" Text="More" Width="124px" Height="24px" OnClick="dMenu_Click" />
+                 <asp:Button ID="dMenu3" runat="server" CssClass="dMenu1" Height="24px" Text="About Us" Width="124px" Visible="False" PostBackUrl="~/aboutUs.aspx"/>
+                 <asp:Button ID="dMenu4" runat="server" CssClass="dMenu1" Height="24px" Text="Services" Width="124px" Visible="False" PostBackUrl="~/servicePage.aspx"/>
+             </asp:Panel>
+          
+
+            <div id="sitemapstyle" style="background-color:lightsteelblue;padding-top:5px;padding-bottom:5px;font-weight:300">
+             &nbsp;
+             <asp:SiteMapPath id="SiteMapPath1" runat="server" Height="20px" Font-Size="Large" Font-Bold="true" ForeColor="#ff0000" RootNodeStyle-Font-Underline="false" NodeStyle-Font-Underline="false">
+             </asp:SiteMapPath>
+            </div>
+
+            <div id="middlepagestyle">
+                <div id="contentplaceholderstyle">
+             <asp:ContentPlaceHolder ID="contentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            </div>
+
+        <div id="footer">
+            <p style="background-color:lightsteelblue; display:flex; align-items:center; justify-content:center;margin-top:-2px;padding-top:8px" >
+                <span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:large;font-weight:300;">Follow us</span>
+            </p>
+
+            <p style="background-color:lightsteelblue; display:flex; align-items:center; justify-content:center;margin-top:-22px;padding-top:10px" >
+                <asp:HyperLink ID="Facebook" runat="server" ImageUrl="~/Properties/FacebookIcon.png" NavigateUrl="https://en-gb.facebook.com/" ImageHeight="30px" ImageWidth="30px"></asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="Instagram" runat="server" ImageUrl="~/Properties/InstagramIcon.png" NavigateUrl="https://www.instagram.com/" ImageHeight="30px" ImageWidth="35px"></asp:HyperLink>
+                &nbsp;<asp:HyperLink ID="Youtube" runat="server" ImageUrl="~/Properties/YoutubeIcon.png" NavigateUrl="https://www.youtube.com/" ImageHeight="30px" ImageWidth="30px"></asp:HyperLink>
+            </p>
+        </div>
+        <div id="footer2">
+            <p style="background-color:lightsteelblue; display:flex; align-items:center; justify-content:center;margin-top:-20px;padding-bottom:10px;margin-bottom:-8px;padding-top:5px">
+                <span style="color: black; background-color:lightsteelblue;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                    ©Inter JustArt Gallery Systems 2020 - 2021 | Term of Policy</span></p>
+        </div>
+
+    
+    </form>
+</body>
+</html>

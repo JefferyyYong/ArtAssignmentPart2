@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="homepage.aspx" title="Home"  description="Homepage">
+    <siteMapNode url="aboutUs.aspx" title="About Us"  description="AboutUspage" />
+    <siteMapNode url="servicePage.aspx" title="Service"  description="Servicepage" />
+    <siteMapNode url="login.aspx" title="Login"  description="Loginpage">
+    <siteMapNode url="forgetPassword.aspx" title="Forget Password"  description="ForgetPasswordpage" />
+    </siteMapNode>
+    
+      <siteMapNode url="register.aspx" title="Register"  description="Registerpage">    
+    <siteMapNode url="artistRegister.aspx" title="Artist Register"  description="ArtistRegisterpage"/>
+    <siteMapNode url="customerRegister.aspx" title="Customer Register"  description="CustomerRegisterpage"/>
+      </siteMapNode>
+    
+  <siteMapNode url="ArtistManageArt.aspx" title="Manage Art"  description="ManageArt">
+	  <siteMapNode url="ArtistAddArt.aspx" title="Create New Art"  description="CreateArt"/>
+	    <siteMapNode url="ArtistArtList.aspx" title="Art List"  description="ArtList">
+	      <siteMapNode url="ArtistEditArt.aspx" title="Edit Art"  description="EditArt"/>
+	    </siteMapNode>
+	 </siteMapNode>
+
+    <siteMapNode url="cDashboard.aspx" title="Customer Dashboard"  description="CustomerDashboard">
+    <siteMapNode url="product.aspx" title="View Product"  description="ViewProduct">
+    <siteMapNode url="Order.aspx" title="Order"  description="Order"/>
+    <siteMapNode url="WishList.aspx" title="Wish List"  description="WishList"/>
+  <siteMapNode url="payment.aspx" title="Payment"  description="Payment"/>
+      <siteMapNode url="PurchaseHistory.aspx" title="Purchase History"  description="PurchaseHistory"/>
+  </siteMapNode>
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

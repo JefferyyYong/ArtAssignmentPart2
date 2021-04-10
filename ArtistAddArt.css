@@ -1,0 +1,97 @@
+﻿#addArtPg {
+    background: url("Properties/BlueBackground.jpg");
+    margin: auto;
+    width: 70%;
+    padding: 50px;
+    font-family: 'Metrophobic';
+}
+
+.addArtTable {
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.styleUpImg {
+    margin-left: 100px;
+}
+
+.uploadCol1 {
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+}
+
+.uploadCol2 {
+    width: 100px;
+    height: 60px;
+}
+
+.addArtCol1 {
+    font-size: 18px;
+    width: 120px;
+    height: 60px;
+}
+
+.addArtCol2 {
+    width: 200px;
+    height: 60px;
+}
+
+.addArtRow {
+    height: 60px;
+    font-size: 15px;
+}
+
+.uploadInvisible {
+    cursor: pointer;
+}
+
+    .uploadInvisible input {
+        top: 0;
+        left: 0;
+        margin: 0;
+        /* Loses tab index in webkit if width is set to 0 */
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+input[type=text], textarea, input[type=date], .createArtStyle {
+    width: 350px;
+    height: 35px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+    input[type=text]:focus, textarea:focus, input[type=date]:focus, .createArtStyle:focus {
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #191970;
+        border-top: none;
+    }
+
+
+.btnCreateArtStyle {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 3px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+    .btnCreateArtStyle:hover {
+        color: #ffffff !important;
+        background: #4682B4;
+        border-color: #494949 !important;
+        transition: all 0.4s ease 0s;
+    }

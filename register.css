@@ -1,0 +1,59 @@
+﻿.registerBox{
+    width:500px;
+    margin-left:30%;
+    padding-bottom:20px;
+    padding-top:20px;
+    text-align:center;
+    position:absolute;
+    right:400px;
+    top:220px;
+}
+
+.registerForm{
+    padding-top:10px;
+    padding-bottom:20px;
+    border:outset;
+    border-color:black;
+    background-color:lightblue;
+}
+
+.registerTitle{
+    text-align:center;
+    width:500px;
+    padding-bottom:5px;
+}
+
+.registerTitleTxt {
+    text-decoration-line: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.registerSection{
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nametxt{
+    width:200px;
+}
+
+.submitBtnStyle{
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.submitBtnStyle2{
+    background-color:lightblue;
+    color:black;
+    width:90px;
+    height:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+    font-size:16px;
+}
+
+.submitBtnStyle2:hover{
+    background-color:Highlight;
+}
